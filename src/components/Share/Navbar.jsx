@@ -4,15 +4,17 @@ import Link from 'next/link';
 import React from 'react';
 import { Check, Power } from "@gravity-ui/icons";
 import { Switch } from "@heroui/react";
+import { usePathname } from 'next/navigation';
 
 const Navbar = () => {
     const { theme, setTheme } = useTheme();
+    const path = usePathname()
     return (
         <div className='flex justify-between h-15 shadow items-center'>
             <Link href={'/'} className='text-2xl font-bold'>Logo</Link>
             <div className="flex gap-5 text-red-400">
-                <Link href={'/'}>Home</Link>
-                <Link href={'/'}>Home</Link>
+                <Link className={`${path === '/' && 'border-b  border-red-500'} `} href={'/'}>Home</Link>
+                <Link className={`${path === '/books' && 'border-b  border-red-500'} `} href={'/books'}>Books</Link>
                 <Link href={'/'}>Home</Link>
                 <Link href={'/'}>Home</Link>
             </div>

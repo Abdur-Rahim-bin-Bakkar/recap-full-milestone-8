@@ -27,7 +27,9 @@ export default function RootLayout({ children }) {
       <body className="bg-background text-foreground">
         <ThemeProviders>
           <Navbar />
-          {children}
+          <main className='max-w-11/12 mx-auto'>
+            {children}
+          </main>
         </ThemeProviders>
       </body>
     </html>
