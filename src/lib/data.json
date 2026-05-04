@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "name": "Rahim Sikdar",
+    "roll": 101,
+    "role": "React Developer",
+    "skills": ["HTML", "CSS", "JavaScript", "React"]
+  },
+  {
+    "id": 2,
+    "name": "Arif Hossain",
+    "roll": 102,
+    "role": "Next.js Developer",
+    "skills": ["React", "Next.js", "Tailwind CSS", "API Integration"]
+  },
+  {
+    "id": 3,
+    "name": "Nusrat Jahan",
+    "roll": 103,
+    "role": "Frontend Developer",
+    "skills": ["HTML", "CSS", "JavaScript", "React"]
+  },
+  {
+    "id": 4,
+    "name": "Tanvir Ahmed",
+    "roll": 104,
+    "role": "Full Stack Developer",
+    "skills": ["React", "Next.js", "Node.js", "MongoDB"]
+  },
+  {
+    "id": 5,
+    "name": "Sabbir Rahman",
+    "roll": 105,
+    "role": "React Developer",
+    "skills": ["React", "Redux", "JavaScript", "Tailwind CSS"]
+  }
+]

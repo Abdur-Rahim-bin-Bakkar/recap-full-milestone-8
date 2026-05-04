@@ -15,8 +15,8 @@ const Navbar = () => {
             <div className="flex gap-5 text-red-400">
                 <Link className={`${path === '/' && 'border-b  border-red-500'} `} href={'/'}>Home</Link>
                 <Link className={`${path === '/books' && 'border-b  border-red-500'} `} href={'/books'}>Books</Link>
-                <Link href={'/'}>Home</Link>
-                <Link href={'/'}>Home</Link>
+                <Link className={`${path === '/server' && 'border-b  border-red-500'} `} href={'/server'}>Server</Link>
+                <Link className={`${path === '/developer' && 'border-b  border-red-500'} `} href={'/developer'}>Developers</Link>
             </div>
             <div className="">
                 <button >
